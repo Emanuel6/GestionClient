@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="852.0" prefWidth="1310.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="gestionclientfx.FXMLDocumentController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="1311.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Accueil">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Nouveau Client">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Clients">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="595.0" layoutY="27.0" text="Accueil">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField layoutX="521.0" layoutY="179.0" promptText="Nom Client" />
+      <Button layoutX="679.0" layoutY="179.0" mnemonicParsing="false" text="Rechercher" />
+      <Button layoutX="679.0" layoutY="234.0" mnemonicParsing="false" text="Nouveau Client" />
+      <Button layoutX="679.0" layoutY="290.0" mnemonicParsing="false" text="Clients" />
+   </children>
+</AnchorPane>
